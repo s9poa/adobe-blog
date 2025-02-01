@@ -1,0 +1,338 @@
+:root {
+    font-size: 1rem;
+    --wrapper-width: 100rem;
+    --gray: #2c2c2c;
+    --blue-hover: #2F80ED;
+    --adobe-red: #eb1000;
+    --box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Assistant", sans-serif;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: #fff;    
+}
+
+.wrapper {
+    max-width: var(--wrapper-width);
+    width: 100%;
+    margin-inline: auto;
+}
+
+p, a, li {
+    line-height: 1.5;
+    word-wrap: break-word; /* Add this to wrap long words */
+    white-space: pre-wrap; /* Add this to preserve whitespace and wrap text */
+}
+
+li {
+    list-style-position: inside;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+/*---- Scrollbar ----*/
+::-webkit-scrollbar {
+    width: .5rem;
+    height: .5rem;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--adobe-red);
+}
+
+/*---- Sizing ----*/
+.full-w {
+    width: 100%;
+}
+.sm-w {
+    width: .5rem;
+}
+.md-w {
+    width: 1rem;
+}
+.lg-w {
+    width: 2rem;
+}
+.full-h {
+    height: 100%;
+}
+.sm-h {
+    height: .5rem;
+}
+.md-h {
+    height: 1rem;
+}
+.lg-h {
+    height: 2rem;
+}
+
+/*---- Layout ----*/
+.dsply-g {
+    display: grid;
+}
+.pc-c {
+    place-content: center;
+}
+.dsply-f {
+    display: flex;
+}
+.fd-col {
+    flex-direction: column;
+}
+.a-fs {
+    align-items: flex-start;
+}
+.a-fc {
+    align-items: center;
+}
+.a-fe {
+    align-items: flex-end;
+}
+.j-fs {
+    justify-content: flex-start;
+}
+.j-fc {
+    justify-content: center;
+}
+.j-fe {
+    justify-content: flex-end;
+}
+.j-sb {
+    justify-content: space-between;
+}
+.j-se {
+    justify-content: space-evenly;
+}
+.j-sa {
+    justify-content: space-around;
+}
+.fw-w {
+    flex-wrap: wrap;
+}
+.fg-1 {
+    flex-grow: 1;
+}
+.fg-2 {
+    flex-grow: 2;
+}
+.sm-gap {
+    gap: .5rem;
+}
+.md-gap {
+    gap: 1rem;
+}
+.lg-gap {
+    gap: 2rem;
+}
+
+/*---- Padding ----*/
+.sm-pd {
+    padding: .5rem;
+}
+.md-pd {
+    padding: 1rem;
+}
+.lg-pd {
+    padding: 2rem;
+}
+.sm-t-pd {
+    padding-top: .5rem;
+}
+.md-t-pd {
+    padding-top: 1rem;
+}
+.lg-t-pd {
+    padding-top: 2rem;
+}
+.sm-r-pd {
+    padding-right: .5rem;
+}
+.md-r-pd {
+    padding-right: 1rem;
+}
+.lg-r-pd {
+    padding-right: 2rem;
+}
+.sm-b-pd {
+    padding-bottom: .5rem;
+}
+.md-b-pd {
+    padding-bottom: 1rem;
+}
+.lg-b-pd {
+    padding-bottom: 2rem;
+}
+.sm-l-pd {
+    padding-left: .5rem;
+}
+.md-l-pd {
+    padding-left: 1rem;
+}
+.lg-l-pd {
+    padding-left: 2rem;
+}
+.sm-block-pd {
+    padding-block: .5rem;
+}
+.md-block-pd {
+    padding-block: 1rem;
+}
+.lg-block-pd {
+    padding-block: 2rem;
+}
+.sm-inline-pd {
+    padding-inline: .5rem;
+}
+.md-inline-pd {
+    padding-inline: 1rem;
+}
+.lg-inline-pd {
+    padding-inline: 2rem;
+}
+
+/*---- Margin ----*/
+.mg-t-auto {
+    margin-top: auto;
+}
+.mg-r-auto {
+    margin-right: auto;
+}
+.mg-b-auto {
+    margin-bottom: auto;
+}
+.mg-l-auto {
+    margin-left: auto;
+}
+.sm-block-mg {
+    margin-block: .5rem;
+}
+.md-block-mg {
+    margin-block: 1rem;
+}
+.lg-block-mg {
+    margin-block: 2rem;
+}
+.sm-inline-mg {
+    margin-inline: .5rem;
+}
+.md-inline-mg {
+    margin-inline: 1rem;
+}
+.lg-inline-mg {
+    margin-inline: 2rem;
+}
+.sm-b-mg {
+    margin-bottom: .5rem;
+}
+.md-b-mg {
+    margin-bottom: 1rem;
+}
+.lg-b-mg {
+    margin-bottom: 2rem;
+}
+.sm-t-mg {
+    margin-top: .5rem;
+}
+.md-t-mg {
+    margin-top: 1rem;
+}
+.lg-t-mg {
+    margin-top: 2rem;
+}
+
+.sm-fw {
+    font-weight: 100;
+}
+.md-fw {
+    font-weight: 500;
+}
+.lg-fw {
+    font-weight: 700;
+}
+
+/*---- Font Styling ----*/
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    height: 7.5ex;
+    line-height: 2.5ex;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+/*---- Testing ----*/
+.outline {
+    outline: 1px solid red;
+}
+.gradient {
+    background: #200122;
+    background: linear-gradient(to top, #200122 0%, #6F0000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.popover_a:hover {
+    background: hsl(0, 0%, 95%);
+}
+.popover_a.popoverActiveColor {
+    background: hsl(0, 0%, 92%);
+}
+
+@media (max-width: 600px) {
+    main .section-heading {
+        font-size: 2rem;
+    }
+}

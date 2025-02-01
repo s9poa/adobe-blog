@@ -1,0 +1,404 @@
+header {
+    border-bottom: 1px solid #EAEAEA;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+header .active-link {
+    font-weight: 700;
+    box-shadow: 0 2px 0 #000;
+}
+header .wrapper {
+    height: 4rem;
+    position: relative;
+}
+header .logo {
+    color: var(--adobe-red);
+    font-weight: 700;
+    height: 100%;
+    padding: 1rem;
+
+    &:hover {
+        box-shadow: 0 2px 0 var(--adobe-red);
+        background: hsl(0, 0%, 97%);
+    }
+}
+header .left.grouping > a {
+    display: flex;
+    align-items: center;
+    &:hover {
+        background: hsl(0, 0%, 97%);
+    }
+}
+header .bx.bxl-adobe {
+    font-size: 2rem;
+    color: var(--adobe-red);
+}
+header .wrapper > .grouping {
+    display: flex;
+    align-items: center;
+}
+header .grouping > * {
+    height: 100%;
+}
+header .popover:not(.popover-search) {
+    position: relative;
+}
+header .popover_a {
+    padding: 1rem;
+    height: 100%;
+    background: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+header .popover_b {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fafafa;
+    transform: translateY(100%);
+    box-shadow: var(--box-shadow);
+    border-top: 1px solid #EAEAEA;
+    border-radius: 0 0 20px 20px;
+    z-index: 2;
+    display: none;
+}
+header .popover_b.root > .popover_b_close {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    border-radius: 10px;
+    min-height: 3rem;
+    min-width: 3rem;
+    background: var(--adobe-red);
+    transition: all .2s ease-in-out;
+
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+header .popover_b.root .popover_b_close > i {
+    color: #fff;
+    font-size: 1.2rem;
+}
+header .popover.mobile .popover_b.root {
+    width: 100vw;
+    gap: 0;
+    overflow-y: auto !important;
+    height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+    padding-bottom: 5rem;
+}
+header .popover.mobile .popover_b.root .popover_a {
+    height: max-content;
+}
+header .popover.mobile .popover_b.root .popover_b {
+    overflow-y: auto !important;
+    height: max-content;
+}
+header .popover.mobile .popover_b.root .popover_b a:not(.register-now):focus-visible {
+    background: var(--adobe-red);
+    color: #fff;
+    outline: none;
+}
+header .popover.mobile .popover_b.root form {
+    margin-bottom: 1rem;
+    min-height: 3rem;
+}
+header .popover.mobile .popover_b.root > .popover_b_close {
+    margin-top: 1rem;
+}
+header .popover_b nav {
+    display: flex;
+    flex-direction: column;
+}
+header .popover_b.mobile nav a {
+    position: relative;
+}
+header .popover_b.mobile nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: var(--adobe-red);
+}
+header .popover_b a{
+    padding: .5rem 1rem;
+    width: 100%;
+
+    &:focus-visible, &:hover {
+        color: var(--blue-hover);
+        background: hsl(0, 0%, 95%);
+    }
+}
+header .popover_b > .grouping {
+    gap: 1rem;
+}
+header .popover_b_close {
+    padding: .5rem 1rem;
+    border-radius: 100vw;
+
+    &:hover {
+        background: hsl(0, 0%, 90%);
+    }
+}
+header .popover-b-search .popover_b_close {
+    background: var(--adobe-red);
+    min-width: 11rem;
+}
+header .popover-b-search .popover_b_close .fa-solid.fa-x {
+    color: #fff;
+}
+header .left.grouping .popover_a i {
+    font-size: .6rem;
+}
+header .adobe-max {
+    gap: 1rem;
+    width: 15rem;
+    border: 1px solid #EAEAEA;
+    background: #fff;
+    padding: 1rem;
+}
+header .adobe-max p {
+    font-size: .8rem;
+}
+header .adobe-max .register-now {
+    background: hsl(0, 0%, 95%);
+    border-radius: 5px;
+
+    &:hover {
+        background: hsl(0, 0%, 90%);
+    }
+}
+header .popover-b-search {
+    width: 100%;
+    flex-direction: row;
+    border-radius: 0;
+}
+header .popover-b-search::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    background: #fff;
+    width: 200vw;
+    height: 100%;
+    z-index: -1;
+}
+header .popover-b-search .popover_b_close {
+    max-width: 10rem;
+    width: 100%;
+}
+header .search-form {
+    height: 3rem;
+    position: relative;
+    border-radius: 5px;
+    background: hsl(0,0%, 95%);
+
+    &:hover, &:focus-visible {
+        box-shadow: 0 2px 0 red;
+    }
+}
+header .search-form .search-btn {
+    width: 3rem;
+    font-size: 1rem;
+}
+header .search-form > * {
+    height: 100%;
+    border-radius: 5px;
+}
+header .search_input {
+    border-radius: 0 5px 5px 0;
+    padding: .5rem;
+    font-size: 1rem;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+header .search_input, header .search-btn  {
+    border: none;
+    background: transparent;
+}
+header .search-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    visibility: hidden;
+}
+header .search_input::placeholder {
+    font-size: 1rem;
+}
+header .search_input:focus-visible::placeholder {
+    color: hsl(0, 0%, 30%);
+}
+.popover_b_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    display: none;
+}
+#overlay-blur {
+    background: rgba(0,0,0,.5);
+    backdrop-filter: blur(5px);
+}
+#overlay-white {
+    background: white;
+}
+header .profile-icon {
+    width: 2rem;
+}
+header .profile-popover {
+    right: 0;
+    left: auto;
+    padding: 0;
+    background: #fff;
+    gap: 0;
+}
+
+header .profile-popover .profile-icon {
+    width: 5rem;
+}
+header .profile-top {
+    gap: 1rem;
+    position: relative;
+    padding: 1rem;
+
+    &:hover {
+        background: hsl(0, 0%, 95%);
+    }
+}
+header .profile-top .view-account {
+    padding: 0;
+    height: auto;
+    text-decoration: underline;
+    width: max-content;
+
+    &:hover {
+        background: none;
+        color: currentColor;
+    }
+}
+header .profile-top .view-account::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+header .profile-info {
+    gap: .5rem;
+}
+header .profile-info * {
+    line-height: 1.2;
+}
+header .profile-name {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+header .profile-email {
+    font-weight: 300;
+}
+header .profile-popover .popover_b_close {
+    margin: .5rem;
+}
+header .popover_b .sign-out {
+    height: auto;
+    padding: 1rem;
+    border-block: 1px solid #EAEAEA;
+}
+header .right.grouping > * {
+    width: 4rem;
+}
+header .popover.mobile {
+    display: none;
+    border-right: 1px solid #EAEAEA;
+}
+header .popover.mobile .popover_a.root {
+    width: 4rem;
+}
+header .popover.mobile .popover_a.root > i {
+    font-size: 1.5rem;
+}
+header .popover_a.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #EAEAEA;
+
+    &:hover {
+        background: hsl(0,0%,95%);
+    }
+}
+header .popover_b.has_overlay.root > .popover:last-of-type > .popover_a.mobile {
+    border-bottom: 1px solid #EAEAEA;
+}
+header .popover_b.mobile {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    background: hsl(0,0%,95%);
+    box-shadow: none;
+    transform: none;
+    border-radius: 0;
+    border-radius: 0;
+    z-index: 2;
+    overflow-y: auto !important;
+    height: max-content;
+    display: none;
+}
+header .popover_b.mobile .popover_b_close {
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--adobe-red);
+}
+header .popover_b.mobile .popover_b_close i {
+    color: #fff;
+    font-size: 1rem;
+}
+header .popover_b.mobile nav a:hover {
+    background: hsl(0,0%,90%);
+}
+@media (max-width: 1100px), (max-height: 600px) {
+    header .desktop {
+        display: none;
+    }
+    header .single-link:not(.popover.mobile .single-link) {
+        display: none !important;
+    }
+    header .popover.mobile {
+        display: flex;
+    }
+    header .popover.mobile .single-link {
+        box-shadow: none;
+    }
+}
+@media (max-width: 400px) {
+    header .profile-popover {
+        width: 100vw;
+    }
+}

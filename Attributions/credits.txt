@@ -1,0 +1,55 @@
+*Hold ctrl and press f to search with keywords
+
+// Adobe Stock free icon
+<a href="https://www.flaticon.com/free-icons/adobe-stock" title="adobe stock icons">Adobe stock icons created by Freepik - Flaticon</a>
+
+// Google free icon
+<a href="https://www.flaticon.com/free-icons/google" title="google icons">Google icons created by Freepik - Flaticon</a>
+
+// Facebook free icon
+<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a>
+
+// Apple Logo free icon
+<a href="https://www.flaticon.com/free-icons/mac" title="mac icons">Mac icons created by Freepik - Flaticon</a>
+
+// Microsoft free icon
+<a href="https://www.flaticon.com/free-icons/microsoft" title="microsoft icons">Microsoft icons created by Pixel perfect - Flaticon</a>
+
+// Line free icon
+<a href="https://www.flaticon.com/free-icons/line" title="line icons">Line icons created by Ruslan Babkin - Flaticon</a>
+
+// Kakao Talk free icon
+<a href="https://www.flaticon.com/free-icons/kakao-talk" title="kakao talk icons">Kakao talk icons created by Fathema Khanom - Flaticon</a>
+
+// Key free icon
+<a href="https://www.flaticon.com/free-icons/smart-key" title="smart-key icons">Smart-key icons created by Freepik - Flaticon</a>
+
+// Price Tag free icon
+<a href="https://www.flaticon.com/free-icons/price" title="price icons">Price icons created by Graphiqa - Flaticon</a>
+
+// Creative Cloud free icon
+<a href="https://www.flaticon.com/free-icons/adobe" title="adobe icons">Adobe icons created by Pixel perfect - Flaticon</a>
+
+// Photoshop free icon
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+
+// Photoshop Lightroom free icon
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+
+// Photoshop Lightroom Classic free icon
+<a href="https://www.flaticon.com/free-icons/photoshop-lightroom-classic" title="photoshop lightroom classic icons">Photoshop lightroom classic icons created by Freepik - Flaticon</a>
+
+// Cloud free icon
+<a href="https://www.flaticon.com/free-icons/fluffy" title="fluffy icons">Fluffy icons created by meaicon - Flaticon</a>
+
+// Xd free icon
+<a href="https://www.flaticon.com/free-icons/xd" title="xd icons">Xd icons created by Freepik - Flaticon</a>
+
+// Acrobat free icon
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+
+// Behance free icon
+<a href="https://www.flaticon.com/free-icons/behance-network" title="Behance Network icons">Behance Network icons created by riajulislam - Flaticon</a>
+
+// Photoshop Express free icon
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
