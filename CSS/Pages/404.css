@@ -36,6 +36,10 @@ main a {
     &:hover {
         transform: translateY(-3px);
     }
+    &:focus-visible {
+        outline: 4px solid #fff;
+        outline-offset: -8px;
+    }
 }
 footer {
     margin-top: auto;

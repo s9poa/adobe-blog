@@ -73,8 +73,11 @@ main .ctc_container .sft-link, main .ctc_container .set-it-up {
     transition: all .2s ease-in-out;
 
     &:hover, &:focus-visible {
-        transform: translateY(-3px);
-        background: hsl(214, 56%, 40%);
+        background: hsl(214, 56%, 37%);
+    }
+    &:focus-visible {
+        outline: 3px solid #fff;
+        outline-offset: -6px;
     }
 }
 main .ctc_container.sft::before {
@@ -144,9 +147,12 @@ main .grid-right .edit-profile, main .manage-plan, main .iyp-header > a, main .a
         background: #000;
         color: #fff;
     }
+
 }
-main .iyp-header a:focus-visible > span {
+main .iyp-header a > span {
     transition: all .2s ease-in-out;
+}
+main .iyp-header a:focus-visible > span, main .iyp-header a:hover > span {
     color: #fff;
 }
 main .edit-payment-link {
@@ -388,6 +394,9 @@ main .card-des {
 }
 main .dialog-pd {
     padding: 1rem;
+}
+main .mnge-sign-in {
+    align-self: flex-start;
 }
 @media (max-width: 1400px) {
     main .yp-grid {
