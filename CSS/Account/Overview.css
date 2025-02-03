@@ -398,6 +398,11 @@ main .dialog-pd {
 main .mnge-sign-in {
     align-self: flex-start;
 }
+main .sticky-hanger {
+    position: sticky;
+    top: 6rem;
+    height: fit-content;
+}
 @media (max-width: 1400px) {
     main .yp-grid {
         grid-template-columns: repeat(2, 1fr);
