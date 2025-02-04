@@ -87,7 +87,7 @@ main .ctc_container.sft::before {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url("../../Images/Pages/Account/Overview/price-tag.webp");
+    background-image: url("../../images/pages/account/overview/price-tag.webp");
     background-position: center;
     z-index: -1;
     opacity: .2;
@@ -99,7 +99,7 @@ main .ctc_container.passkey::before {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url("../../Images/Pages/Account/Overview/key.webp");
+    background-image: url("../../images/pages/account/overview/key.webp");
     background-position: center;
     z-index: -1;
     opacity: .2;
@@ -215,17 +215,17 @@ main .yp-grid .cc-main {
 }
 main .yp-grid .cc-img {
     min-height: 8rem;
-    background-image: url(../../Images/Pages/Account/Overview/CC@1x.webp); 
+    background-image: url(../../images/pages/account/overview/cc@1x.webp); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px 5px 0 0;
 }
 main .yp-grid .exclusive-img {
-    background-image: url(../../Images/Pages/Account/Overview/exclusive-membership.webp); 
+    background-image: url(../../images/pages/account/overview/exclusive-membership.webp); 
 }
 main .yp-grid .acrobat-img {
-    background-image: url(../../Images/Pages/Account/Overview/acrobat_bg.webp); 
+    background-image: url(../../images/pages/account/overview/acrobat_bg.webp); 
 }
 main .yp-grid .cc-logo {
     width: 3rem;

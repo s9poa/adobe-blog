@@ -4,7 +4,7 @@ main h1, main .section-heading {
 }
 main .banner-img {
     width: 50%;
-    background-image: url("../../Images/Pages/Index/hero.webp");
+    background-image: url("../../images/pages/index/hero.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,40 +110,40 @@ main .card__img {
     aspect-ratio: 16 / 9;
 }
 main .card__img-1 {
-    background-image: url("../../Images/Pages/Index/card-1.webp");
+    background-image: url("../../images/pages/index/card-1.webp");
 }
 main .card__img-2 {
-    background-image: url("../../Images/Pages/Index/card-2.webp");
+    background-image: url("../../images/pages/index/card-2.webp");
 }
 main .card__img-3 {
-    background-image: url("../../Images/Pages/Index/card-3.webp");
+    background-image: url("../../images/pages/index/card-3.webp");
 }
 main .card__img-4 {
-    background-image: url("../../Images/Pages/Index/card-4.webp");
+    background-image: url("../../images/pages/index/card-4.webp");
 }
 main .card__img-5 {
-    background-image: url("../../Images/Pages/Index/card-5.webp");
+    background-image: url("../../images/pages/index/card-5.webp");
 }
 main .card__img-6 {
-    background-image: url("../../Images/Pages/Index/card-6.webp");
+    background-image: url("../../images/pages/index/card-6.webp");
 }
 main .card__img-7 {
-    background-image: url("../../Images/Pages/Index/card-7.webp");
+    background-image: url("../../images/pages/index/card-7.webp");
 }
 main .card__img-8 {
-    background-image: url("../../Images/Pages/Index/card-8.webp");
+    background-image: url("../../images/pages/index/card-8.webp");
 }
 main .card__img-9 {
-    background-image: url("../../Images/Pages/Index/card-9.webp");
+    background-image: url("../../images/pages/index/card-9.webp");
 }
 main .card__img-10 {
-    background-image: url("../../Images/Pages/Index/card-10.gif");
+    background-image: url("../../images/pages/index/card-10.gif");
 }
 main .card__img-11 {
-    background-image: url("../../Images/Pages/Index/card-11.webp");
+    background-image: url("../../images/pages/index/card-11.webp");
 }
 main .card__img-12 {
-    background-image: url("../../Images/Pages/Index/card-12.webp");
+    background-image: url("../../images/pages/index/card-12.webp");
 }
 main .card__body {
     display: flex;
