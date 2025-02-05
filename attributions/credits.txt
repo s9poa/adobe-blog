@@ -53,3 +53,8 @@
 
 // Photoshop Express free icon
 <a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+
+// Adobe free icon
+<a href="https://www.flaticon.com/free-icons/adobe" title="adobe icons">Adobe icons created by Pixel perfect - Flaticon</a>
+
+
