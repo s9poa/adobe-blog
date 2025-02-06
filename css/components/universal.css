@@ -333,6 +333,11 @@ h1,h2,h3,h4,h5,h6 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 .popover_a:hover {
     background: hsl(0, 0%, 95%);
 }
