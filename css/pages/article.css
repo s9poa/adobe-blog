@@ -148,6 +148,10 @@ main .article__left-grid .txt-grouping p {
 main .article__left-grid a {
     color: blue;
     text-decoration: underline;
+
+    &:hover {
+        color: hsl(240, 100%, 30%);
+    }
 }
 
 
@@ -163,6 +167,9 @@ main .you-might-also-like {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+main .you-might-also-like .favorite:hover {
+    color: gold;
 }
 main .you-might-also-like > * {
     color: #fff;
@@ -224,6 +231,11 @@ main .footer-categories a {
     border: 1px solid var(--border-clr);
     height: fit-content;
     border-radius: 5px;
+    transition: all .2s ease-in-out;
+
+    &:hover, &:focus-visible, &:active {
+        background: var(--border-clr);
+    }
 }
 
 @media (max-width: 1400px) {
