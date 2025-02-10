@@ -125,6 +125,7 @@ main .article__right-grid {
     position: sticky;
     top: 6rem;
     height: fit-content;
+    animation: slideInFromBottom 0.5s ease-out forwards;
 }
 main .article__left-grid .txt-grouping {
     display: flex;

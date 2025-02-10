@@ -76,6 +76,55 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Poppins", sans-serif;
 }
 
+@keyframes slideInFromLeft {
+    /* animation: slideInFromLeft 0.5s ease-out forwards; */
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    /* animation: slideInFromRight 0.5s ease-out forwards; */
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    /* animation: slideInFromBottom 0.5s ease-out forwards; */
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    /* animation: slideInFromTop 0.5s ease-out forwards; */
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 /*---- Scrollbar ----*/
 ::-webkit-scrollbar {
     display: none;
