@@ -193,19 +193,14 @@ main .ad-container .ad-title {
     grid-column: span 2;
     font-size: 1rem;
     font-weight: 700;
-    text-decoration: underline;
+    height: fit-content;
 }
-main .ad-container .ad-title::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-main .ad-container .ad:hover > .ad-title::before, main .ad-container .ad:active > .ad-title::before {
+main .ad-container .ad:hover, main .ad-container .ad:active, main .ad-container .ad:focus-visible {
     outline: 2px dashed #333;
     outline-offset: 5px;
+}
+main .ad:hover > .ad-title, main .ad:active > .ad-title, main .ad:focus-visible > .ad-title {
+    text-decoration: underline;
 }
 
 /* Article Footer */
