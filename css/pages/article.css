@@ -155,8 +155,17 @@ main .article__left-grid .txt-grouping {
     gap: 1rem;
 }
 main .article__left-grid .txt-grouping .article-quote {
-    padding: 1rem;
-    border-left: 4px solid blue;
+    padding-left: 1rem;
+    border-left: 4px solid hsl(200, 38%, 43%);
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-block: 2rem;
+    font-weight: 300;
+}
+main .article__left-grid .article-img-credits {
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
 }
 main .article__left-grid .txt-grouping > * {
     transition: all .2s ease-in-out;
