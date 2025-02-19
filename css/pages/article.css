@@ -154,6 +154,10 @@ main .article__left-grid .txt-grouping {
     flex-direction: column;
     gap: 1rem;
 }
+main .article__left-grid .txt-grouping .article-quote {
+    padding: 1rem;
+    border-left: 4px solid blue;
+}
 main .article__left-grid .txt-grouping > * {
     transition: all .2s ease-in-out;
 }
