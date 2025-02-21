@@ -162,6 +162,11 @@ main .article__left-grid .txt-grouping .article-quote {
     margin-block: 2rem;
     font-weight: 300;
 }
+main .article__left-grid .txt-grouping .ending-statement {
+    font-size: 1rem;
+    font-style: italic;
+
+}
 main .article__left-grid .article-img-credits {
     text-align: center;
     font-style: italic;
