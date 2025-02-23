@@ -202,6 +202,32 @@ main .card__text {
     height: 5ex;
 }
 
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    padding: .5rem;
+    background: #457fca;
+  }
+  .marquee-inner {
+    display: flex;
+    height: 100%;
+  }
+  .marquee-inner > * {
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    color: #fff;
+  }
+  
+  .marquee-inner p {
+  }
+    
+
 @media (max-width: 920px) {
     main .more-from-adobe .grid {
         grid-template-columns: repeat(2, 1fr);
