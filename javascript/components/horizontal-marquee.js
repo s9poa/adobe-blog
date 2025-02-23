@@ -17,16 +17,20 @@ document.addEventListener("DOMContentLoaded", function() {
       cycleWidth = updateCycleWidth(marqueeInner);
     });
 
-    function animate() {
-      pos -= speed;
-      // Round the effective position to two decimal places
-      const effectivePos = Math.round((pos % cycleWidth) * 100) / 100;
-      marqueeInners.forEach(() => {}); // Just a placeholder if needed for multiple marquees
+    let lastTimestamp = null;
+    function animate(timestamp) {
+      if (lastTimestamp === null) {
+        lastTimestamp = timestamp;
+      }
+      const delta = timestamp - lastTimestamp;
+      lastTimestamp = timestamp;
+      pos -= speed * (delta / 16.67);
+      const effectivePos = pos % cycleWidth;
       marqueeInner.style.transform = `translateX(${effectivePos}px)`;
       requestAnimationFrame(animate);
     }
-
-    animate();
+    
+    requestAnimationFrame(animate);
   });
 
   function updateCycleWidth(marqueeInner) {
