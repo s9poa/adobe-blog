@@ -154,13 +154,27 @@ main .article__left-grid .txt-grouping {
     flex-direction: column;
     gap: 1rem;
 }
+main .article__left-grid .txt-grouping .internal-linking {
+    padding: 1rem;
+    border-radius: 5px;
+    background: var(--border-clr);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+main .article__left-grid .txt-grouping .internal-linking ol {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
 main .article__left-grid .txt-grouping .article-quote {
     padding-left: 1rem;
     border-left: 4px solid hsl(200, 38%, 43%);
     font-style: italic;
     font-size: 1.5rem;
     margin-block: 2rem;
-    font-weight: 300;
+    font-weight: 700;
 }
 main .article__left-grid .txt-grouping .ending-statement {
     font-size: 1rem;
@@ -301,7 +315,7 @@ main .footer-categories a {
     main .article__left-grid .txt-grouping h3 {
         font-size: 1.2rem;
     }
-    main .article__left-grid .txt-grouping p {
+    main .article__left-grid .txt-grouping p, main .article__left-grid .txt-grouping .internal-linking ol, main .article__left-grid .txt-grouping .article-quote {
         font-size: 1rem;
     }
     main .article__author-credits {
