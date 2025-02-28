@@ -154,6 +154,13 @@ main .article__left-grid .txt-grouping {
     flex-direction: column;
     gap: 1rem;
 }
+main .article__left-grid .txt-grouping .img-bg {
+    aspect-ratio: 16 / 9;
+    background-image: url("../../images/pages/article/article-v3-lightroom-by-satyam-bhuyan.gif");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
 main .article__left-grid .txt-grouping .internal-linking {
     padding: 1rem;
     border-radius: 5px;
