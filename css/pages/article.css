@@ -170,6 +170,10 @@ main .article__left-grid .gif.two {
 main .article__left-grid .gif.three {
     background-image: url("../../images/pages/article/article-v3-reflection-removal.gif");
 }
+main .article__left-grid .portrait-img {
+    max-width: 25rem !important;
+    margin-inline: auto;
+}
 main .article__left-grid .txt-grouping .internal-linking {
     padding: 1rem;
     border-radius: 5px;
